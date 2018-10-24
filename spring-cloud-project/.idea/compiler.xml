@@ -21,6 +21,7 @@
         <module name="hello-service-api" />
         <module name="hystrix-dashboard" />
         <module name="hystrix-dashboard-turbine" />
+        <module name="rabbitmq-hello" />
         <module name="ribbon-consumer" />
         <module name="user-service" />
       </profile>
