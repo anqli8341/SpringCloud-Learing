@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="boot-demo" />
+        <module name="common-api" />
         <module name="config-client" />
         <module name="config-server" />
         <module name="DemoService" />
@@ -21,6 +22,8 @@
         <module name="hello-service-api" />
         <module name="hystrix-dashboard" />
         <module name="hystrix-dashboard-turbine" />
+        <module name="openfeign-consumer" />
+        <module name="openfeign-producer" />
         <module name="rabbitmq-hello" />
         <module name="ribbon-consumer" />
         <module name="user-service" />

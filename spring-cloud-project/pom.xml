@@ -32,6 +32,9 @@
 		<module>config-server</module>
 		<module>config-client</module>
 		<module>rabbitmq-hello</module>
+		<module>openfeign-consumer</module>
+		<module>openfeign-producer</module>
+		<module>common-api</module>
 	</modules>
 
 	<name>spring-cloud-project</name>

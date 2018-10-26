@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.msa</groupId>
-	<artifactId>config-server</artifactId>
+	<artifactId>openfeign-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>config-server</name>
-	<description>config-server</description>
+	<name>openfeign-consumer</name>
+	<description>openfeign-consumer</description>
 
 	<parent>
 		<groupId>com.msa</groupId>
@@ -17,14 +17,17 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
+			<groupId>com.msa</groupId>
+			<artifactId>common-api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
+
 </project>
