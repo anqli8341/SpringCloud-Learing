@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/openfeign-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/common-api/pom.xml" />
         <option value="$PROJECT_DIR$/openfeign-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
       </list>
     </option>
   </component>

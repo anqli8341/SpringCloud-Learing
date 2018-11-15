@@ -26,6 +26,7 @@
         <module name="openfeign-producer" />
         <module name="rabbitmq-hello" />
         <module name="ribbon-consumer" />
+        <module name="stream-hello" />
         <module name="user-service" />
       </profile>
     </annotationProcessing>

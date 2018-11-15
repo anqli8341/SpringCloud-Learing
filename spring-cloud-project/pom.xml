@@ -35,6 +35,7 @@
 		<module>openfeign-consumer</module>
 		<module>openfeign-producer</module>
 		<module>common-api</module>
+		<module>stream-hello</module>
 	</modules>
 
 	<name>spring-cloud-project</name>
